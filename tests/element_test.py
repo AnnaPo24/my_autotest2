@@ -209,3 +209,5 @@ class TestElements:
             appear_button.open()
             button = appear_button.check_appear_button()
             assert button is True, "The button don't appear"
+
+
